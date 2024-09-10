@@ -1,0 +1,20 @@
+
+/*Criando uma váriavel */
+:root{
+    --cor-destaque: #ff5733;
+    --tamanho-fonte: 28px;
+}
+/*Utilizando variaveis*/
+h2{
+    font-size: var(--tamanho-fonte);
+    color: var(--cor-destaque)
+}
+h4{
+    font-size: var(--tamanho-fonte);
+    color: var(--cor-destaque);
+}
+
+p {
+    font-size: 30px;
+    color: chocolate;
+}
